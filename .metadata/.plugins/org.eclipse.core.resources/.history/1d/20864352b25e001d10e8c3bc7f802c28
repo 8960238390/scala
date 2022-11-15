@@ -1,0 +1,10 @@
+
+
+object HigherOrderFunctionExample {
+  
+  def math(x:Double , y:Double , f:(Double,Double) => Double):Double=f(x,y)
+  
+  def main(args: Array[String]){
+    
+  }
+}

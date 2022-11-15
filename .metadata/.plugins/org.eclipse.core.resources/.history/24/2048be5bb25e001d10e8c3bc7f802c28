@@ -1,0 +1,11 @@
+
+
+object HigherOrderFunctionExample {
+  
+  def math(x:Double , y:Double , f:(Double,Double) => Double):Double=f(x,y)
+  
+  def main(args: Array[String]){
+    
+    val result1 = math(4,5,(x,y)=>x+y)
+  }
+}

@@ -1,0 +1,7 @@
+
+
+object TupleExample {
+  
+  val myTuple1 = (1, 2, "Hello", true)
+  val myTuple2 = new Tuple3(1, 2 , "Sharif")
+}

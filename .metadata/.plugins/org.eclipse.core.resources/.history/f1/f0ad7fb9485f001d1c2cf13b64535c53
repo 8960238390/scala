@@ -1,0 +1,14 @@
+
+
+object ArrayExample {
+  
+  val myArray1: Array[Int] = new Array[Int](4)
+  
+  def main(args: Array[String]){
+    
+    for(i <- 0 to myArray1.length-1){
+      
+      myArray1(i)=i
+    }
+  }
+}

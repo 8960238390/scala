@@ -1,0 +1,16 @@
+
+
+object ListExample {
+  
+  val myList: List[Int] = List(1,5,2,8,6,4)
+  val names: List[String] = List("Max", "Tom", "Jhon")
+  
+  def main(args: Array[String]){
+    
+    println(myList)
+    println(names)
+    
+    println(0 :: 2 :: myList)
+  }
+  
+}

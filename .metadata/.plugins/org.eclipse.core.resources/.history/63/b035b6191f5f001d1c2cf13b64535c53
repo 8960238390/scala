@@ -1,0 +1,13 @@
+
+import java.util.Date
+object PartiallyAppliesFunction {
+  
+  def main(args: Array[String]){
+    
+    val sum = (a: Int, b: Int, c: Int) => a+b+c
+    
+    val f = sum(10, _: Int, _: Int)
+    
+    println(f(30,60))
+  }
+}

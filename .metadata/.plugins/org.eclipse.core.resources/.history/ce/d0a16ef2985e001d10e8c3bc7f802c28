@@ -1,0 +1,16 @@
+
+
+object AnonymousFunctionExample {
+  
+  object Math{
+    
+    def +(x:Int , y:Int) : Int = x+y
+    
+    def **(x:Int, y:Int) : Int = x*y
+    
+  }
+  
+  def print(x:Int) : Unit = {
+    println(x)
+  }
+}

@@ -1,0 +1,5 @@
+
+
+object Example1 {
+  
+}

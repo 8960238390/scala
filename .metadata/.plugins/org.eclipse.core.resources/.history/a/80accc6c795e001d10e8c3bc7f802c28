@@ -1,0 +1,45 @@
+
+
+object EampleForForLop {
+
+  def main(args: Array[String]): Unit = {
+
+    
+    //example for while loop
+    /*  var x = 0
+
+    while (x < 10) {
+      println(x)
+      x += 1
+    }
+
+    //example for do-while loop
+    var y = 0
+
+    do {
+      println(y)
+      y += 1
+    } while (y < 10)
+		
+		* */
+
+    //example for for loop with to keyword
+    
+    /*for(i <- 1 to 5){
+      println("i with keyword to "+i);
+    }
+    
+    for(i <- 1.to(6)){
+      println("i with help of to method "+i)
+    }
+    */
+    
+   /* for( i <- 1.until(6)){
+      println("i with help until method "+i)
+    }*/
+    
+    
+    
+  }
+
+}

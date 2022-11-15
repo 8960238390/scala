@@ -1,0 +1,30 @@
+
+
+object ListExample {
+
+  val myList: List[Int] = List(1, 5, 2, 8, 6, 4)
+  val names: List[String] = List("Max", "Tom", "Jhon")
+
+  def main(args: Array[String]) {
+
+    println(myList)
+    println(names)
+
+    println(0 :: 2 :: myList)
+
+    println(myList)
+    
+    println(Nil)
+    println(1 :: 2 :: Nil)
+    
+    println(names.head)
+    println(names.tail)
+    println(names.isEmpty)
+    println(names.reverse)
+    println(List.fill(5)(2))
+    println(names.min)
+    
+    names.foreach(println)
+  }
+
+}

@@ -1,0 +1,13 @@
+
+
+object AssignmentOperator {
+  
+  def main(args: Array[String]){
+    
+    var a = 50
+    var b = 20
+    var c = 0
+    
+    c <<= 3
+  }
+}

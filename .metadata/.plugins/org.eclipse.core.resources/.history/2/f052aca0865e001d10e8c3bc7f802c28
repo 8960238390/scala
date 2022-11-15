@@ -1,0 +1,9 @@
+
+
+object FunctionExample {
+  
+  object Math{
+    
+    def add(x:Int ,y:Int):Int=x+y
+  }
+}
